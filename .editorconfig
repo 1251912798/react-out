@@ -1,0 +1,15 @@
+# https://editorconfig.org
+# 不同编辑器保证格式是一样的
+# 安装插件：EditorConfig for VS Code
+# idea自动读取该文件
+root = true
+
+[*]
+charset = utf-8
+indent_style = tab
+indent_size = 2
+end_of_line = lf
+# 代码最后新增一行
+insert_final_newline = true
+#  修剪尾随空格
+trim_trailing_whitespace = true
