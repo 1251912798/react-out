@@ -6,7 +6,7 @@ module.exports = {
   // 使用制表符而不是空格缩进行
   useTabs: false,
   // 在语句末尾打印分号
-  semi: true,
+  semi: false,
   // 使用单引号而不是双引号
   singleQuote: true,
   // 在JSX中使用单引号而不是双引号
@@ -24,4 +24,4 @@ module.exports = {
   // 换行符使用 lf 结尾是 可选值"<auto|lf|crlf|cr>"
   endOfLine: 'lf',
   parser: 'typescript',
-};
+}
